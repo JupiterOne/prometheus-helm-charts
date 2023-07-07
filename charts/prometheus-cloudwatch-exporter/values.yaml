@@ -179,6 +179,8 @@ serviceMonitor:
   #     replacement: mydbname
   #     targetLabel: dbname
 
+  useTargetPort: true
+
 prometheusRule:
   # Specifies whether a PrometheusRule should be created
   enabled: false
